@@ -1,0 +1,13 @@
+# ignore this files ##
+*.pth
+*.pkl
+*.jpg
+*.png
+*__pycache__
+*.pyc
+*.zip
+*.tar.gz
+*.mp4
+*.onnx
+*.so.*
+*.so
