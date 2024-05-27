@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/project.dir/project_generated_matrix_multi.cu.o  -o project /usr/local/cuda-11.1/lib64/libcudart_static.a -lpthread -ldl /usr/lib/x86_64-linux-gnu/librt.so /usr/local/cuda-11.1/lib64/libcudart_static.a -lpthread -ldl /usr/lib/x86_64-linux-gnu/librt.so 

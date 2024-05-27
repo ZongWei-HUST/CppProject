@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/hellocuda.dir/hellocuda_generated_hellocuda.cu.o  -o hellocuda /usr/local/cuda-11.1/lib64/libcudart_static.a -lpthread -ldl /usr/lib/x86_64-linux-gnu/librt.so /usr/local/cuda-11.1/lib64/libcudart_static.a -lpthread -ldl /usr/lib/x86_64-linux-gnu/librt.so 
