@@ -1,0 +1,1045 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c473/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c473.dir/build.make CMakeFiles/cmTC_2c473.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c473.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_2c473.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2c473
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c473.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_2c473.dir/CheckSymbolExists.c.o  -o cmTC_2c473 
+CMakeFiles/cmTC_2c473.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2c473.dir/build.make:97: recipe for target 'cmTC_2c473' failed
+make[1]: *** [cmTC_2c473] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2c473/fast' failed
+make: *** [cmTC_2c473/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b3b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b3b7.dir/build.make CMakeFiles/cmTC_0b3b7.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b3b7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0b3b7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0b3b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b3b7.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0b3b7.dir/CheckFunctionExists.c.o  -o cmTC_0b3b7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0b3b7.dir/build.make:97: recipe for target 'cmTC_0b3b7' failed
+make[1]: *** [cmTC_0b3b7] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0b3b7/fast' failed
+make: *** [cmTC_0b3b7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b36c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b36c9.dir/build.make CMakeFiles/cmTC_b36c9.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b36c9.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_b36c9.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b36c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b36c9.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_b36c9.dir/CheckSymbolExists.c.o  -o cmTC_b36c9 
+CMakeFiles/cmTC_b36c9.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b36c9.dir/build.make:97: recipe for target 'cmTC_b36c9' failed
+make[1]: *** [cmTC_b36c9] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b36c9/fast' failed
+make: *** [cmTC_b36c9/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_883fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_883fc.dir/build.make CMakeFiles/cmTC_883fc.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_883fc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_883fc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_883fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_883fc.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_883fc.dir/CheckFunctionExists.c.o  -o cmTC_883fc -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_883fc.dir/build.make:97: recipe for target 'cmTC_883fc' failed
+make[1]: *** [cmTC_883fc] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_883fc/fast' failed
+make: *** [cmTC_883fc/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3f23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3f23.dir/build.make CMakeFiles/cmTC_d3f23.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3f23.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_d3f23.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d3f23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3f23.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_d3f23.dir/CheckSymbolExists.c.o  -o cmTC_d3f23 
+CMakeFiles/cmTC_d3f23.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d3f23.dir/build.make:97: recipe for target 'cmTC_d3f23' failed
+make[1]: *** [cmTC_d3f23] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3f23/fast' failed
+make: *** [cmTC_d3f23/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccedc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccedc.dir/build.make CMakeFiles/cmTC_ccedc.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccedc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ccedc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ccedc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccedc.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ccedc.dir/CheckFunctionExists.c.o  -o cmTC_ccedc -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ccedc.dir/build.make:97: recipe for target 'cmTC_ccedc' failed
+make[1]: *** [cmTC_ccedc] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ccedc/fast' failed
+make: *** [cmTC_ccedc/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d68e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d68e.dir/build.make CMakeFiles/cmTC_1d68e.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d68e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_1d68e.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1d68e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d68e.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_1d68e.dir/CheckSymbolExists.c.o  -o cmTC_1d68e 
+CMakeFiles/cmTC_1d68e.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1d68e.dir/build.make:97: recipe for target 'cmTC_1d68e' failed
+make[1]: *** [cmTC_1d68e] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1d68e/fast' failed
+make: *** [cmTC_1d68e/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6de4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6de4.dir/build.make CMakeFiles/cmTC_a6de4.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6de4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a6de4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a6de4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6de4.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a6de4.dir/CheckFunctionExists.c.o  -o cmTC_a6de4 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a6de4.dir/build.make:97: recipe for target 'cmTC_a6de4' failed
+make[1]: *** [cmTC_a6de4] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a6de4/fast' failed
+make: *** [cmTC_a6de4/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7113/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7113.dir/build.make CMakeFiles/cmTC_a7113.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7113.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_a7113.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a7113
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7113.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_a7113.dir/CheckSymbolExists.c.o  -o cmTC_a7113 
+CMakeFiles/cmTC_a7113.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a7113.dir/build.make:97: recipe for target 'cmTC_a7113' failed
+make[1]: *** [cmTC_a7113] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7113/fast' failed
+make: *** [cmTC_a7113/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d021/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d021.dir/build.make CMakeFiles/cmTC_1d021.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d021.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1d021.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1d021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d021.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1d021.dir/CheckFunctionExists.c.o  -o cmTC_1d021 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1d021.dir/build.make:97: recipe for target 'cmTC_1d021' failed
+make[1]: *** [cmTC_1d021] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1d021/fast' failed
+make: *** [cmTC_1d021/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7d4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7d4b.dir/build.make CMakeFiles/cmTC_c7d4b.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7d4b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_c7d4b.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c7d4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7d4b.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_c7d4b.dir/CheckSymbolExists.c.o  -o cmTC_c7d4b 
+CMakeFiles/cmTC_c7d4b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c7d4b.dir/build.make:97: recipe for target 'cmTC_c7d4b' failed
+make[1]: *** [cmTC_c7d4b] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c7d4b/fast' failed
+make: *** [cmTC_c7d4b/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac893/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac893.dir/build.make CMakeFiles/cmTC_ac893.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac893.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ac893.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac893
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac893.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ac893.dir/CheckFunctionExists.c.o  -o cmTC_ac893 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ac893.dir/build.make:97: recipe for target 'cmTC_ac893' failed
+make[1]: *** [cmTC_ac893] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ac893/fast' failed
+make: *** [cmTC_ac893/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79fbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79fbd.dir/build.make CMakeFiles/cmTC_79fbd.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79fbd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_79fbd.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_79fbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79fbd.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_79fbd.dir/CheckSymbolExists.c.o  -o cmTC_79fbd 
+CMakeFiles/cmTC_79fbd.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_79fbd.dir/build.make:97: recipe for target 'cmTC_79fbd' failed
+make[1]: *** [cmTC_79fbd] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_79fbd/fast' failed
+make: *** [cmTC_79fbd/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a99f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a99f4.dir/build.make CMakeFiles/cmTC_a99f4.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a99f4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a99f4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a99f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a99f4.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a99f4.dir/CheckFunctionExists.c.o  -o cmTC_a99f4 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a99f4.dir/build.make:97: recipe for target 'cmTC_a99f4' failed
+make[1]: *** [cmTC_a99f4] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a99f4/fast' failed
+make: *** [cmTC_a99f4/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_518c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_518c4.dir/build.make CMakeFiles/cmTC_518c4.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_518c4.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_518c4.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_518c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_518c4.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_518c4.dir/CheckSymbolExists.c.o  -o cmTC_518c4 
+CMakeFiles/cmTC_518c4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_518c4.dir/build.make:97: recipe for target 'cmTC_518c4' failed
+make[1]: *** [cmTC_518c4] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_518c4/fast' failed
+make: *** [cmTC_518c4/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f01fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f01fe.dir/build.make CMakeFiles/cmTC_f01fe.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f01fe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f01fe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f01fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f01fe.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f01fe.dir/CheckFunctionExists.c.o  -o cmTC_f01fe -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f01fe.dir/build.make:97: recipe for target 'cmTC_f01fe' failed
+make[1]: *** [cmTC_f01fe] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f01fe/fast' failed
+make: *** [cmTC_f01fe/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1efba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1efba.dir/build.make CMakeFiles/cmTC_1efba.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1efba.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_1efba.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1efba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1efba.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_1efba.dir/CheckSymbolExists.c.o  -o cmTC_1efba 
+CMakeFiles/cmTC_1efba.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1efba.dir/build.make:97: recipe for target 'cmTC_1efba' failed
+make[1]: *** [cmTC_1efba] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1efba/fast' failed
+make: *** [cmTC_1efba/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39ca6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39ca6.dir/build.make CMakeFiles/cmTC_39ca6.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39ca6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_39ca6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39ca6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ca6.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_39ca6.dir/CheckFunctionExists.c.o  -o cmTC_39ca6 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_39ca6.dir/build.make:97: recipe for target 'cmTC_39ca6' failed
+make[1]: *** [cmTC_39ca6] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_39ca6/fast' failed
+make: *** [cmTC_39ca6/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2443/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2443.dir/build.make CMakeFiles/cmTC_d2443.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2443.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_d2443.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d2443
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2443.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_d2443.dir/CheckSymbolExists.c.o  -o cmTC_d2443 
+CMakeFiles/cmTC_d2443.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d2443.dir/build.make:97: recipe for target 'cmTC_d2443' failed
+make[1]: *** [cmTC_d2443] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d2443/fast' failed
+make: *** [cmTC_d2443/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55606/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55606.dir/build.make CMakeFiles/cmTC_55606.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55606.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_55606.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55606
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55606.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_55606.dir/CheckFunctionExists.c.o  -o cmTC_55606 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_55606.dir/build.make:97: recipe for target 'cmTC_55606' failed
+make[1]: *** [cmTC_55606] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_55606/fast' failed
+make: *** [cmTC_55606/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21307/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21307.dir/build.make CMakeFiles/cmTC_21307.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21307.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_21307.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_21307
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21307.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_21307.dir/CheckSymbolExists.c.o  -o cmTC_21307 
+CMakeFiles/cmTC_21307.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_21307.dir/build.make:97: recipe for target 'cmTC_21307' failed
+make[1]: *** [cmTC_21307] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_21307/fast' failed
+make: *** [cmTC_21307/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9246e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9246e.dir/build.make CMakeFiles/cmTC_9246e.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9246e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9246e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9246e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9246e.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9246e.dir/CheckFunctionExists.c.o  -o cmTC_9246e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9246e.dir/build.make:97: recipe for target 'cmTC_9246e' failed
+make[1]: *** [cmTC_9246e] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9246e/fast' failed
+make: *** [cmTC_9246e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c936/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c936.dir/build.make CMakeFiles/cmTC_7c936.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c936.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_7c936.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7c936
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c936.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_7c936.dir/CheckSymbolExists.c.o  -o cmTC_7c936 
+CMakeFiles/cmTC_7c936.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7c936.dir/build.make:97: recipe for target 'cmTC_7c936' failed
+make[1]: *** [cmTC_7c936] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7c936/fast' failed
+make: *** [cmTC_7c936/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91991/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91991.dir/build.make CMakeFiles/cmTC_91991.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91991.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_91991.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_91991
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91991.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_91991.dir/CheckFunctionExists.c.o  -o cmTC_91991 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_91991.dir/build.make:97: recipe for target 'cmTC_91991' failed
+make[1]: *** [cmTC_91991] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_91991/fast' failed
+make: *** [cmTC_91991/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3466/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3466.dir/build.make CMakeFiles/cmTC_d3466.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3466.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_d3466.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d3466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3466.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_d3466.dir/CheckSymbolExists.c.o  -o cmTC_d3466 
+CMakeFiles/cmTC_d3466.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d3466.dir/build.make:97: recipe for target 'cmTC_d3466' failed
+make[1]: *** [cmTC_d3466] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3466/fast' failed
+make: *** [cmTC_d3466/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55561/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55561.dir/build.make CMakeFiles/cmTC_55561.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55561.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_55561.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55561
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55561.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_55561.dir/CheckFunctionExists.c.o  -o cmTC_55561 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_55561.dir/build.make:97: recipe for target 'cmTC_55561' failed
+make[1]: *** [cmTC_55561] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_55561/fast' failed
+make: *** [cmTC_55561/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b817/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b817.dir/build.make CMakeFiles/cmTC_8b817.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b817.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_8b817.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8b817
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b817.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_8b817.dir/CheckSymbolExists.c.o  -o cmTC_8b817 
+CMakeFiles/cmTC_8b817.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8b817.dir/build.make:97: recipe for target 'cmTC_8b817' failed
+make[1]: *** [cmTC_8b817] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8b817/fast' failed
+make: *** [cmTC_8b817/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcc41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcc41.dir/build.make CMakeFiles/cmTC_fcc41.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcc41.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fcc41.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fcc41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcc41.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_fcc41.dir/CheckFunctionExists.c.o  -o cmTC_fcc41 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fcc41.dir/build.make:97: recipe for target 'cmTC_fcc41' failed
+make[1]: *** [cmTC_fcc41] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fcc41/fast' failed
+make: *** [cmTC_fcc41/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_913ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_913ea.dir/build.make CMakeFiles/cmTC_913ea.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_913ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_913ea.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_913ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_913ea.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_913ea.dir/CheckSymbolExists.c.o  -o cmTC_913ea 
+CMakeFiles/cmTC_913ea.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_913ea.dir/build.make:97: recipe for target 'cmTC_913ea' failed
+make[1]: *** [cmTC_913ea] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_913ea/fast' failed
+make: *** [cmTC_913ea/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3aa5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3aa5b.dir/build.make CMakeFiles/cmTC_3aa5b.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3aa5b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3aa5b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3aa5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aa5b.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3aa5b.dir/CheckFunctionExists.c.o  -o cmTC_3aa5b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3aa5b.dir/build.make:97: recipe for target 'cmTC_3aa5b' failed
+make[1]: *** [cmTC_3aa5b] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3aa5b/fast' failed
+make: *** [cmTC_3aa5b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb93f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb93f.dir/build.make CMakeFiles/cmTC_fb93f.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb93f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_fb93f.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fb93f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb93f.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_fb93f.dir/CheckSymbolExists.c.o  -o cmTC_fb93f 
+CMakeFiles/cmTC_fb93f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fb93f.dir/build.make:97: recipe for target 'cmTC_fb93f' failed
+make[1]: *** [cmTC_fb93f] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fb93f/fast' failed
+make: *** [cmTC_fb93f/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00747/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00747.dir/build.make CMakeFiles/cmTC_00747.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00747.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_00747.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00747
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00747.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_00747.dir/CheckFunctionExists.c.o  -o cmTC_00747 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_00747.dir/build.make:97: recipe for target 'cmTC_00747' failed
+make[1]: *** [cmTC_00747] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_00747/fast' failed
+make: *** [cmTC_00747/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49829/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49829.dir/build.make CMakeFiles/cmTC_49829.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49829.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_49829.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_49829
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49829.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_49829.dir/CheckSymbolExists.c.o  -o cmTC_49829 
+CMakeFiles/cmTC_49829.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_49829.dir/build.make:97: recipe for target 'cmTC_49829' failed
+make[1]: *** [cmTC_49829] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49829/fast' failed
+make: *** [cmTC_49829/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5111/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5111.dir/build.make CMakeFiles/cmTC_b5111.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5111.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b5111.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5111.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b5111.dir/CheckFunctionExists.c.o  -o cmTC_b5111 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b5111.dir/build.make:97: recipe for target 'cmTC_b5111' failed
+make[1]: *** [cmTC_b5111] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5111/fast' failed
+make: *** [cmTC_b5111/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b0f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b0f0.dir/build.make CMakeFiles/cmTC_3b0f0.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b0f0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_3b0f0.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3b0f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b0f0.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_3b0f0.dir/CheckSymbolExists.c.o  -o cmTC_3b0f0 
+CMakeFiles/cmTC_3b0f0.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3b0f0.dir/build.make:97: recipe for target 'cmTC_3b0f0' failed
+make[1]: *** [cmTC_3b0f0] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3b0f0/fast' failed
+make: *** [cmTC_3b0f0/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cee4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cee4a.dir/build.make CMakeFiles/cmTC_cee4a.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cee4a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cee4a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cee4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee4a.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cee4a.dir/CheckFunctionExists.c.o  -o cmTC_cee4a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cee4a.dir/build.make:97: recipe for target 'cmTC_cee4a' failed
+make[1]: *** [cmTC_cee4a] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cee4a/fast' failed
+make: *** [cmTC_cee4a/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_235fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_235fb.dir/build.make CMakeFiles/cmTC_235fb.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_235fb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_235fb.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_235fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_235fb.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_235fb.dir/CheckSymbolExists.c.o  -o cmTC_235fb 
+CMakeFiles/cmTC_235fb.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_235fb.dir/build.make:97: recipe for target 'cmTC_235fb' failed
+make[1]: *** [cmTC_235fb] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_235fb/fast' failed
+make: *** [cmTC_235fb/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_135cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_135cd.dir/build.make CMakeFiles/cmTC_135cd.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_135cd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_135cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_135cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_135cd.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_135cd.dir/CheckFunctionExists.c.o  -o cmTC_135cd -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_135cd.dir/build.make:97: recipe for target 'cmTC_135cd' failed
+make[1]: *** [cmTC_135cd] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/OpenCVTest/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_135cd/fast' failed
+make: *** [cmTC_135cd/fast] Error 2
+
+
