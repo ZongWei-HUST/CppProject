@@ -1,0 +1,165 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4acd5/fast && /usr/bin/make  -f CMakeFiles/cmTC_4acd5.dir/build.make CMakeFiles/cmTC_4acd5.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4acd5.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -o CMakeFiles/cmTC_4acd5.dir/src.c.o -c /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4acd5
+/home/duzongwei/anaconda3/envs/zw_iti/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4acd5.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC  -rdynamic CMakeFiles/cmTC_4acd5.dir/src.c.o -o cmTC_4acd5 
+CMakeFiles/cmTC_4acd5.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4acd5.dir/build.make:98: recipe for target 'cmTC_4acd5' failed
+make[1]: *** [cmTC_4acd5] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_4acd5/fast' failed
+make: *** [cmTC_4acd5/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e48a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_e48a0.dir/build.make CMakeFiles/cmTC_e48a0.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e48a0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e48a0.dir/CheckFunctionExists.c.o -c /home/duzongwei/anaconda3/envs/zw_iti/lib/python3.7/site-packages/cmake/data/share/cmake-3.24/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e48a0
+/home/duzongwei/anaconda3/envs/zw_iti/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e48a0.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_e48a0.dir/CheckFunctionExists.c.o -o cmTC_e48a0  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e48a0.dir/build.make:98: recipe for target 'cmTC_e48a0' failed
+make[1]: *** [cmTC_e48a0] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_e48a0/fast' failed
+make: *** [cmTC_e48a0/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_58b40/fast && /usr/bin/make  -f CMakeFiles/cmTC_58b40.dir/build.make CMakeFiles/cmTC_58b40.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58b40.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -o CMakeFiles/cmTC_58b40.dir/src.c.o -c /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_58b40
+/home/duzongwei/anaconda3/envs/zw_iti/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58b40.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC  -rdynamic CMakeFiles/cmTC_58b40.dir/src.c.o -o cmTC_58b40 
+CMakeFiles/cmTC_58b40.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_58b40.dir/build.make:98: recipe for target 'cmTC_58b40' failed
+make[1]: *** [cmTC_58b40] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_58b40/fast' failed
+make: *** [cmTC_58b40/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ba26a/fast && /usr/bin/make  -f CMakeFiles/cmTC_ba26a.dir/build.make CMakeFiles/cmTC_ba26a.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba26a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ba26a.dir/CheckFunctionExists.c.o -c /home/duzongwei/anaconda3/envs/zw_iti/lib/python3.7/site-packages/cmake/data/share/cmake-3.24/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba26a
+/home/duzongwei/anaconda3/envs/zw_iti/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba26a.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_ba26a.dir/CheckFunctionExists.c.o -o cmTC_ba26a  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ba26a.dir/build.make:98: recipe for target 'cmTC_ba26a' failed
+make[1]: *** [cmTC_ba26a] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_ba26a/fast' failed
+make: *** [cmTC_ba26a/fast] Error 2
+
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45e7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45e7b.dir/build.make CMakeFiles/cmTC_45e7b.dir/build
+make[1]: Entering directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45e7b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_45e7b.dir/CheckSymbolExists.c.o   -c /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_45e7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45e7b.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_45e7b.dir/CheckSymbolExists.c.o  -o cmTC_45e7b 
+CMakeFiles/cmTC_45e7b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_45e7b.dir/build.make:97: recipe for target 'cmTC_45e7b' failed
+make[1]: *** [cmTC_45e7b] Error 1
+make[1]: Leaving directory '/home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_45e7b/fast' failed
+make: *** [cmTC_45e7b/fast] Error 2
+
+File /home/duzongwei/CppWorkPlace/CppProject/Deploy/autoretouch-onnx-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

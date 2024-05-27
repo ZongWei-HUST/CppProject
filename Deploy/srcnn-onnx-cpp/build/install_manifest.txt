@@ -1,0 +1,4 @@
+/home/duzongwei/CppWorkPlace/CppProject/Deploy/srcnn-onnx-cpp/bin/srcnn
+/home/duzongwei/CppWorkPlace/CppProject/Deploy/srcnn-onnx-cpp/lib/libonnxruntime.so.1.10.0
+/home/duzongwei/CppWorkPlace/CppProject/Deploy/srcnn-onnx-cpp/lib/libopencv_imgcodecs.so.407
+/home/duzongwei/CppWorkPlace/CppProject/Deploy/srcnn-onnx-cpp/lib/libopencv_core.so.407
